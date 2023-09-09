@@ -4,6 +4,10 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .content-main {
     font-family: Arial, sans-serif;
     background-color: #a5a4a4;
