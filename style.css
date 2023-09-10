@@ -173,3 +173,16 @@ section {
   ::-webkit-scrollbar-thumb:hover {
     background: #222;
   }
+/*botao voltar ao topo */
+
+#link-topo{
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    position: fixed;
+    padding: 1rem;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 6px #222;
+
+}
