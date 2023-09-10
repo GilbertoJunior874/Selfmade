@@ -176,6 +176,7 @@ section {
 /*botao voltar ao topo */
 
 #link-topo{
+    align-content: center;
     text-decoration: none;
     color: white;
     background-color: #333;
