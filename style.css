@@ -75,7 +75,6 @@ html {
 }
 
 #home {
-    
     background-image: url('img/fundopizza.png');
     background-size: cover;
     color: #fff;
@@ -84,7 +83,6 @@ html {
 }
 
 .content-banner {
-    
     max-width: 800px;
     
     margin: 80px auto;
@@ -101,11 +99,10 @@ html {
 }
 
 #ensaio {
-    flex-direction: row;
+    flex-direction: column-reverse;
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
     align-content: center;
     text-align: justify;
     flex-wrap: wrap-reverse;
