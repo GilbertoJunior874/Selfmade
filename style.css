@@ -27,7 +27,6 @@ html {
 /* nav bar nova */
 
 .topnav {
-    
     background-color: #222;
     overflow: hidden;
 }
@@ -221,3 +220,14 @@ section {
     box-shadow: 3px 3px 6px #222;
 
 }
+/* responsividade basica da nav */
+@media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav-right {
+      float: none;
+    }
+  }
