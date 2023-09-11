@@ -15,6 +15,9 @@ html {
 }
 
 .content-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
     display: block;
     flex-direction: flex;
     align-items: center;
@@ -27,12 +30,12 @@ html {
 /* nav bar nova */
 
 .topnav {
-    
     background-color: #222;
     overflow: hidden;
 }
   
 .topnav a {
+    
     display:inline-block;
     color: #f2f2f2;
     text-align: center;
@@ -40,6 +43,7 @@ html {
     text-decoration: none;
     font-size: 17px;
 }
+
   
 .topnav a:hover {
     background-color: #ddd;
@@ -79,6 +83,7 @@ html {
 
 .content-banner {
     max-width: 800px;
+    
     margin: 0 auto;
 }
 
